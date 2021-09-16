@@ -1,0 +1,62 @@
+
+/* HK Grotesk */
+@font-face {
+    font-family: "HK_Grotesk Bold";
+    src: url("../font/HK_Grotesk/HKGrotesk-Bold.otf");
+ }
+ @font-face {
+    font-family: "HK_Grotesk ExtraBold";
+    src: url("../font/HK_Grotesk/HKGrotesk-ExtraBold.otf");
+ }
+ @font-face {
+    font-family: "HK_Grotesk SemiBold";
+    src: url("../font/HK_Grotesk/HKGrotesk-SemiBold.otf");
+ }
+ @font-face {
+    font-family: "HK_Grotesk Regular";
+    src: url("../font/HK_Grotesk/HKGrotesk-Regular.otf");
+ }
+ 
+ /* SF Ui */
+ @font-face {
+    font-family: "SF Ui Bold";
+    src: url("../font/SFUIText/SFUIText-Bold.woff");
+ }
+ @font-face {
+    font-family: "SF Ui Regular";
+    src: url("../font/SFUIText/SFUIText-Regular.woff");
+ }
+ @font-face {
+    font-family: "SF Ui SemiBold";
+    src: url("../font/SFUIText/SFUIText-Semibold.woff");
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: #151B2B;
+    height: 100vh;
+}
+
+/* --- HEADER --- */
+header{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header .logo{
+    margin: 3.3rem 0 7.88rem;
+}
+
+header .logo img:first-of-type{
+    width: 3.13rem;
+}
+
+header .logo img:last-of-type{
+    width: 6.34rem;
+    height: 2rem;
+}
