@@ -49,6 +49,7 @@ header{
 .first-page{
     max-width: 1250px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 header .logo{
@@ -69,10 +70,9 @@ header .logo img:last-of-type{
 header .intro{
     display: flex;
     justify-content: space-between;
-}
-
-header .intro > img{
-    transform: translateY(-7rem);
+    align-items: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
 }
 
 header .introText{
@@ -111,8 +111,7 @@ header .introText > p:nth-of-type(2){
     font-size: 1rem;
     line-height: 1.5rem;
     color: #8686B2;
-    padding: 0.88rem;
-    margin-bottom: 1.13rem;
+    margin-bottom: 3rem;
 }
 
 header .socials{
@@ -158,6 +157,7 @@ header .discord i{
 main{
     max-width: 1150px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 main .article1, main .article2{
@@ -168,6 +168,11 @@ main .article1, main .article2{
 
 main .article2{
     position: relative;
+}
+
+main .article2 code{
+    text-align: start;
+    width: 850px;
 }
 
 main .article1 h2, main .article2 h2{
@@ -206,7 +211,9 @@ main .article1 img, main .article2 img{
 main .article2 img:first-of-type{
     position: absolute;
     top: -3rem;
+    left: 0;
     z-index: -1;
+    margin: ;
 }
 
 main .socials{
@@ -301,6 +308,91 @@ main section .last-title{
     margin: 10.43rem 0 16.63rem 0;
 }
 
+/* --- FOOTER --- */
 footer{
-    background-color: #151B2B;
+    background-color: #FFFFFF;
+    padding: 0 1rem;
+}
+
+footer .logo-text{
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+footer .logo-text img{
+    width: 2.5rem;
+    margin-right: 0.75rem;
+}
+
+footer .logo-text p{
+    font-family: "SF Ui Regular";
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+footer .last-page{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "SF Ui Regular";
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+
+footer .first-category{
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    color: #798099;
+}
+
+footer .first-category p, footer .first-category a{
+    margin-bottom: 1.5rem;
+    color: #798099;
+}
+
+footer .logos-small{
+    display: flex;
+}
+
+footer .logos-small a{
+    border: solid 1px #e6e8f0;
+    padding: 6px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+footer .logos-small a:first-of-type{
+    margin-left: 0;
+}
+
+footer .category p, footer .category a{
+    margin: 1.5rem 0;
+    color: #798099;
+    text-decoration: none;
+}
+
+footer hr{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+footer .bas-de-page p{
+    color: #798099;
+    font-family: "SF Ui Regular";
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1.75rem 1rem;
+}
+
+footer .bas-de-page a{
+    text-decoration: none;
+    color: #4548b0;
+    font-size: 0.75rem;
 }
