@@ -135,7 +135,7 @@ header .socials{
     display: flex;
 }
 
-header .github a{
+header .github a, header .discord a, main .github a, main .discord a{
     display: block;
     text-decoration: none;
     font-family: "SF Ui Regular";
@@ -150,35 +150,15 @@ header .github a{
     line-height: 1.5rem;
 }
 
-header .discord a:hover{
-    transform: scale(1.1);
-}
-
-header .github i{
-    margin-right: 0.44rem;
-    font-size: 1.19rem;
-    transform: translateY(1.5px);
-}
-
-header .discord a{
-    display: block;
-    text-decoration: none;
-    font-family: "SF Ui Regular";
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: #FFF;
-    padding: 0.56rem 1rem 0.56rem 1rem;
+header .discord a, main .discord a{
     background-color: #6578C0;
-    border-radius: 0.2rem;
-    line-height: 1.5rem;
-    transition: .4s;
 }
 
-header .github a:hover{
+header .discord a:hover, header .github a:hover, main .discord a:hover, main .github a:hover{
     transform: scale(1.1);
 }
 
-header .discord i{
+header .github i, header .discord i, main .github i, main .discord i{
     margin-right: 0.44rem;
     font-size: 1.19rem;
     transform: translateY(1.5px);
@@ -256,52 +236,6 @@ main .socials{
     justify-content: center;
 }
 
-main .github a{
-    display: block;
-    text-decoration: none;
-    font-family: "SF Ui Regular";
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: #FFF;
-    padding: 0.56rem 1rem 0.56rem 1rem;
-    background-color: #454658;
-    border-radius: 0.2rem;
-    margin-right: 1.5rem;
-    transition: .4s;
-}
-
-main .github a:hover{
-    transform: scale(1.1);
-}
-
-main .github i{
-    margin-right: 0.44rem;
-    font-size: 1.19rem;
-    transform: translateY(1.5px);
-}
-
-main .discord a{
-    display: block;
-    text-decoration: none;
-    font-family: "SF Ui Regular";
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: #FFF;
-    padding: 0.56rem 1rem 0.56rem 1rem;
-    background-color: #6578C0;
-    border-radius: 0.2rem;
-    transition: .4s;
-}
-
-main .discord a:hover{
-    transform: scale(1.1);
-}
-
-main .discord i{
-    margin-right: 0.44rem;
-    font-size: 1.19rem;
-    transform: translateY(1.5px);
-}
 
 /* --- SECTION 2 --- */
 /* --- ARTICLES --- */
